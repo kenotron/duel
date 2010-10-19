@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  attack_points: 1
+
+two:
+  name: MyString
+  attack_points: 1

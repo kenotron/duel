@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  gender: MyString
+  gold: 1
+  attack_points: 1
+  defense_points: 1
+  hit_points: 1
+  level: 1
+  experience_points: 1
+
+two:
+  name: MyString
+  gender: MyString
+  gold: 1
+  attack_points: 1
+  defense_points: 1
+  hit_points: 1
+  level: 1
+  experience_points: 1
