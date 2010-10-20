@@ -1,0 +1,46 @@
+body {
+  font-family: 'IM Fell DW Pica SC', arial, serif;
+  color: #823421;
+  text-shadow: #333 0 1px 2.5px;
+  font-size: 22px;
+}
+
+#nav {
+  text-align: center;
+}
+
+#main {
+  background-image: url(../images/paper-background.jpg);
+  background-repeat: no-repeat;
+  height: 910px;
+  width: 860px;
+  padding: 25px 50px 25px 50px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+a {
+  color: #363636;
+  font-size: 1.5em;
+  text-shadow: #fff 0 1px 5px;
+}
+
+strong {
+  color: #1d721b;
+  text-shadow: #36cc36 0 1px 3px;
+  font-size: 1.5em;
+}
+
+em {
+  color: #721d1b;
+  text-shadow: #cc3636 0 1px 3px;
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0 0 1.75em 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}

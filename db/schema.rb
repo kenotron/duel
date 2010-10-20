@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(:version => 20101019053832) do
     t.integer  "hit_points"
     t.integer  "level"
     t.integer  "experience_points"
-    t.integer  "users_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

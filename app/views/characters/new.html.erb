@@ -1,0 +1,14 @@
+<script>
+$(document).ready(function() {
+    $("input[type=radio]").buttonset();
+});
+</script>
+
+<%= form_for @character do |f| %>
+    <p><%= f.label :name, "Full Name" %>
+    <%= f.text_field :name %></p>
+    
+    <p><%= f.radio_button :gender, "Male" %>Male <%= f.radio_button :gender, "Female" %>Female</p>
+    
+    <p><%= f.submit "save" %></p>
+<% end %>

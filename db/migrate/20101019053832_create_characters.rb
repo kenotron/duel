@@ -9,7 +9,7 @@ class CreateCharacters < ActiveRecord::Migration
       t.integer :hit_points
       t.integer :level
       t.integer :experience_points
-      t.references :users
+      t.references :user
 
       t.timestamps
     end
