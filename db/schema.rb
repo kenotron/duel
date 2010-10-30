@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101019053832) do
+ActiveRecord::Schema.define(:version => 20101022001945) do
 
   create_table "characters", :force => true do |t|
     t.string   "name"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(:version => 20101019053832) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "moves_reset_at"
+    t.integer  "moves_left",        :default => 10
   end
 
   create_table "characters_weapons", :id => false, :force => true do |t|

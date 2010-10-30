@@ -1,0 +1,4 @@
+<p>Welcome back, <%= @character.name %>. You have <strong><%= @character.moves_left %></strong> moves left.</p>
+
+<p>From here, you can head outside and <%= link_to "fight monsters", fight_monster_path %>. There is an armory in town as well. There, you may
+<%= link_to "buy weapons", shop_weapon_path %>, <%= link_to "armors", shop_armor_path %>, or <%= link_to "items", shop_item_path %>.</p>
